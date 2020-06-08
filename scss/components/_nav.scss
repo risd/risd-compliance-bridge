@@ -1,0 +1,57 @@
+[data-react-component='Nav'] {
+  display: none;
+}
+
+/* nav banner styles */
+
+[data-react-component='Nav'] header {
+  background-color: var(--pop-color);
+  border-bottom-color: var(--pop-color);
+}
+
+[data-react-component='Nav'] button,
+[data-react-component='Nav'] button:hover,
+[data-react-component='Nav'] h3,
+[data-react-component='Nav'] h3 a,
+[data-react-component='Nav'] h3 a:hover {
+  color: var(--background-color);
+}
+
+[data-react-component='Nav'] svg path {
+  fill: var(--background-color);
+}
+
+/* nav drawer styles */
+
+[data-react-component='Nav'] header nav div:nth-child(2) {
+  width: 528px;
+}
+
+[data-react-component='Nav'] header nav div:nth-child(2) > ul > li {
+  padding: 0 60px;
+}
+
+[data-react-component='Nav'] ul li span {
+  @extend %sans-serif;
+  @extend %fs-2;
+  color: var(--pop-color);
+  margin-bottom: 0.5rem;
+}
+
+[data-react-component='Nav'] header nav div:nth-child(2) > ul > li > ul {
+  margin-left: 0;
+}
+
+[data-react-component='Nav'] header nav div:nth-child(2) > ul > li > ul > li {
+  @extend %serif;
+  @extend %fs-2;
+  color: var(--text-color);
+}
+
+[data-react-component='Nav'] header nav div:nth-child(2) > ul > li > ul > li > a {
+  border-bottom: none;
+}
+
+// [data-react-component='Nav'] header nav div:nth-child(2) > ul > li > ul > li > a:hover {
+//   text-decoration: none;
+// }

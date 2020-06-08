@@ -1,0 +1,32 @@
+{% set navItems = [ {
+  text: "RISD Operations",
+  subitems: [ {
+    text: "For first-year students",
+    url: "#for-first-year-students",
+  }, {
+    text: "For transfer students",
+    url: "#for-transfer-students",
+  }, {
+    text: "For BRDD students",
+    url: "#for-brdd-students",
+  }, {
+    text: "For families",
+    url: "#for-families",
+  }, {
+    text: "International student support",
+    url: "#international-student-support",
+  }, {
+    text: "Info sessions",
+    url: "#info-sessions",
+  }, {
+    text: "Tuition and aid",
+    url: "#tuition-and-aid",
+  } ]
+} ] %}
+
+{% react "Nav" with {
+  siteTitle: "Compliance Policy Portal",
+  homepageUrl: "/",
+  hasSearch: false,
+  items: navItems
+} %}
