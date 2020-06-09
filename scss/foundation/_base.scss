@@ -42,6 +42,10 @@ h3 + p {
   margin-top: 0.5em;
 }
 
+h1 + p {
+  margin-top: 1rem;
+}
+
 p {
   @extend %serif;
   @include text-size($fs-5);
@@ -164,6 +168,21 @@ figcaption {
   @extend %sans-serif;
   @include text-size($fs-6);
   color: var(--text-color);
+}
+
+input[type="search"] {
+  width: 100%;
+  padding: 5px 40px 5px 10px;
+  height: 30px;
+  border: 1px solid var(--text-color);
+
+  @include respond-above(small) {
+    width: 80%;
+  }
+
+  @include respond-above(medium) {
+    width: 30%;
+  }
 }
 
 td,

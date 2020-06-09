@@ -1,0 +1,25 @@
+:root {
+  --nav-height: 3rem;
+}
+
+main {
+  margin-top: var(--nav-height);
+}
+
+.grid {
+  max-width: var(--max-width-site);
+  margin: 0 2rem;
+  padding: 30px 0;
+
+  @include respond-above(maxWidth) {
+    margin: 0 auto;  
+  }
+}
+
+.grid p {
+  max-width: var(--max-width-content);
+}
+
+.vertical-spacing {
+  margin-top: 1rem;
+}

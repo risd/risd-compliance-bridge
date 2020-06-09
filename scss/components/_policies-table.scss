@@ -1,0 +1,31 @@
+.policies-table {
+
+}
+
+.policies-table__heading {
+  color: var(--background-color);
+  background-color: var(--pop-color);
+  text-align: left;
+  padding: 12px 10px;
+  border-right: 1px solid var(--background-color);
+}
+
+.policies-table__heading--policy {
+  width: 60%;
+}
+
+.policies-table__heading--category {
+  width: 20%;
+}
+
+.policies-table__heading--subcategory {
+  width: 20%;
+}
+
+.policies-table tbody tr {
+  border-bottom: 1px solid var(--grey);
+}
+
+.policies-table td {
+  padding: 12px 10px;
+}

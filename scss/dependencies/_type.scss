@@ -87,9 +87,8 @@ This definition includes redundant repitition of values, so it can be defined mo
 
 -------------------------------------------------------- */
 
-// X-Small
 $fs-1:(
-  base:(64px, 110px)
+  base:(64px, 74px)
 );
 
 $fs-2: (
@@ -97,7 +96,7 @@ $fs-2: (
 );
 
 $fs-3: (
-  base: (24px, 64px)
+  base: (24px, 34px)
 );
 
 $fs-4: (
@@ -206,4 +205,8 @@ If the mixin is called and values are not entered, it will default to regular fo
 
 .fs-7 {
   @extend %fs-7;
+}
+
+.fw-bold {
+  font-weight: bold;
 }
