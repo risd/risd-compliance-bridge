@@ -1,6 +1,6 @@
 {
-  "name": "@risd/webhook-generate",
-  "version": "2.5.7",
+  "name": "@risd/compliance-bridge",
+  "version": "1.0.1",
   "description": "Grunt site generator for risd/webhook",
   "repository": {
     "type": "git",
